@@ -1,15 +1,20 @@
 module.exports = {
 	parser: require.resolve('babel-eslint'),
-	extends: 'eslint:recommended',
+	extends: [
+		'eslint:recommended',
+		'plugin:jest/recommended'
+	],
 	plugins: [
 		'compat',
 		'react',
+		'jest',
 		'mocha'
 	],
 	env: {
 		browser: true,
 		es6: true,
 		mocha: true,
+		'jest/globals': true,
 		node: true
 	},
 	parserOptions: {
