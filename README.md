@@ -1,5 +1,7 @@
 # eslint-config-developit
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/developit/eslint-config-developit.svg)](https://greenkeeper.io/)
+
 developit's eslint configuration, with some sensible defaults for ES2015, React and Mocha.
 
 ## Installation
