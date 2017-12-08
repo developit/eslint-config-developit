@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "test": "eslint index.js && ! eslint -c index.js tests/fail.js &>/dev/null && eslint -c index.js tests/pass.js && echo 'pass'",
-    "prepublish": "npm test",
+    "prepare": "npm test",
     "release": "git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "eslintConfig": {
