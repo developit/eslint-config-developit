@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-developit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "developit's eslint config",
   "main": "index.js",
   "keywords": [
