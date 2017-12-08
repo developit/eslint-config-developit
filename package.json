@@ -30,12 +30,12 @@
   "dependencies": {
     "babel-eslint": "^8.0.3",
     "eslint-plugin-compat": "^2.1.0",
+    "eslint-plugin-jest": "^21.4.2",
     "eslint-plugin-mocha": "^4.0.0",
     "eslint-plugin-react": "^7.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.12.1",
-    "eslint-plugin-jest": "^21.4.2"
+    "eslint": "^4.12.1"
   },
   "peerDependencies": {
     "eslint": ">=4"
