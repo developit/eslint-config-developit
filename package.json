@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-developit",
+  "version": "1.0.0",
+  "description": "developit's eslint config",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "eslint index.js",
+    "prepublish": "npm test",
+    "release": "git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended"
+  },
+  "author": "Jason Miller <jason@developit.ca>",
+  "contributors": [
+    "Bill Neff <bneff@synacor.com>"
+  ],
+  "license": "GPL-3.0",
+  "repository": "developit/eslint-config-developit",
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint-plugin-compat": "^1.0.0",
+    "eslint-plugin-mocha": "^4.0.0",
+    "eslint-plugin-react": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=4"
+  }
+}
