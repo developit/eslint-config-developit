@@ -23,21 +23,22 @@
   },
   "author": "Jason Miller <jason@developit.ca>",
   "contributors": [
-    "Bill Neff <bneff@synacor.com>"
+    "Bill Neff <bneff@synacor.com>",
+    "Marvin Hagemeister <marvin@marvinhagemeister.de>"
   ],
   "license": "GPL-3.0",
   "repository": "developit/eslint-config-developit",
   "dependencies": {
-    "babel-eslint": "^8.0.3",
+    "babel-eslint": "^10.0.1",
     "eslint-plugin-compat": "^2.1.0",
-    "eslint-plugin-jest": "^21.4.2",
-    "eslint-plugin-mocha": "^4.0.0",
+    "eslint-plugin-jest": "^22.0.0",
+    "eslint-plugin-mocha": "^5.2.0",
     "eslint-plugin-react": "^7.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.12.1"
+    "eslint": "^5.9.0"
   },
   "peerDependencies": {
-    "eslint": ">=4"
+    "eslint": "5.x"
   }
 }
